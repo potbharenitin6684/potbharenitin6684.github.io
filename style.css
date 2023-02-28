@@ -31,7 +31,7 @@ html {
 
 body {
   background: var(--bg-color);
-  padding-left: 30rem;
+  /* padding-left: 30rem; */
   /* background-image: url(""); */
   /* background-repeat: no-repeat;
   background-size: cover; */
@@ -70,9 +70,9 @@ section {
 }
 
 #webTech-about{
-  margin-top: 5px;
-  margin-bottom: 2px;
-}
+  margin-top: 60px;
+  
+} 
 .heading {
   text-align: center;
   font-size: 5rem;
@@ -80,17 +80,18 @@ section {
   text-transform: uppercase;
   padding-bottom: 2rem;
   margin-top: -40px;
-}
-#webTech{
-  margin-top:-150px;
-}
+  }
+  #webTech-skills{ 
+  margin-top:60px;
+} 
+
 .heading span {
   color: var(--blue);
   text-transform: uppercase;
   margin-top: 50%;
 }
 
-
+/* 
 .header {
   position: fixed;
   top: 0;
@@ -106,7 +107,7 @@ section {
 
 .header .user img {
   
-  /* margin: 1rem 5;  */
+  /* margin: 1rem 5;  
   border: 1rem solid transparent;
   border-radius:50%;
   height: 14rem;
@@ -123,26 +124,41 @@ section {
 .header .user p {
   color: var(--blue);
   font-size: 1.5rem;
-}
+} */
 
-.header .navbar {
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: #ddd;
   padding-top: 1rem;
+  display: flex;
+  margin: auto;
+  /* border: 1px solid red; */
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar h3{
+  font-size: 30px;
+  color: #1DA1F2;
 }
 
-.header .navbar a {
+.navbar a {
   display: block;
   margin: 1.5rem 0;
-  padding: 0.7rem;
-  border-radius: 5rem;
+  padding: 1rem;
+  border-radius: 1rem;
   font-size: 2rem;
   box-shadow: var(--box-shadow);
   color: var(--black);
 }
 
-.header .navbar a:hover {
+.navbar a:hover {
   box-shadow: var(--box-shadow-inset);
   color: var(--blue);
-}
+} 
 
 #menu-btn {
   position: fixed;
@@ -238,6 +254,27 @@ section {
 /* home section end  */
 
 /* about section start  */
+.about{
+  margin-top: 100px;
+}
+.navbartop{
+  margin-top: 100px;
+}
+
+.aboutmeMain{
+  display: flex;
+}
+.aboutmeImg{
+  width:100%;
+  margin: auto;
+}
+.aboutmeImg img{
+  display: block;
+  margin: auto;
+  width: 250px;
+  border-radius: 15px;
+}
+
 .about .row {
   display: flex;
   align-items: center;
@@ -246,11 +283,14 @@ section {
   width: 95%;
   justify-content: center;
 }
+.skills{
+  margin-top: 150px;
+}
 #webTech-statis
 {
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
+   margin-top: -60px;
+  /* margin-bottom: 25px; */
+} 
 .about .row .box-container {
   flex: 1 1 40rem;
   display: flex;
@@ -335,6 +375,9 @@ section {
 }
 
 /* contact section start */
+#webtech-contact{
+margin-top: 60px;
+}
 .contact .row {
   display: flex;
   align-items: center;
@@ -415,11 +458,11 @@ section {
     padding-left: 0;
   }
 
-  .header {
+  .navbar {
     left: -110%;
   }
 
-  .header.active {
+  .navbar.active {
     left: 0%;
     transition: 0.4s linear;
   }
@@ -427,22 +470,43 @@ section {
   #menu-btn {
     display: initial;
   }
+  #theme-toggler{
+    display: none; 
+  }
 }
 
 @media (max-width: 450px) {
   html {
     font-size: 50%;
   }
+.aboutmeImg img{
+  width: 100px;
+  padding: 7px;
+}
 
-  .header {
+.about .row .content p {
+  font-size: 1rem;
+  color: var(--light-color);
+  line-height: 1.0;
+  padding: 0.3rem 0;
+}
+  .navbar {
     width: 100%;
-    border-right: 0;
+    border-right: 0px;
+    margin-top: 30px;
+    background: none;
+  }
+  .navbar>.navName{
+    font-size: 10px;
+  }
+  #npname{
+     display: none; 
+  }
+  #theme-toggler{
+    display: none; 
   }
 }
- 
-#webTech{
-  margin-top: 10px;
-} 
+
 .skills_div {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -508,6 +572,32 @@ section {
     padding: 5rem 0;
     margin: 0 30px;
   }
+  #theme-toggler{
+    display: none; 
+  }
+  #npname{
+    display: none; 
+ }
+ .navbar {
+  width: 100%;
+  border-right: 0px;
+  margin-top: 30px;
+  background: none;
+}
+.navbar>.navName{
+  font-size: 10px;
+}
+  
+.aboutmeImg img{
+  width: 200px;
+}
+.about .row .content p {
+  font-size: 1rem;
+  color: var(--light-color);
+  line-height: 1.0;
+  padding: 0.3rem 0;
+}
+  
 }
 
 /* project */
@@ -519,11 +609,11 @@ section {
   gap: 4rem;
   padding: 0 4rem;
 }
-
+ 
 #webTech-myproject{
-  margin-top: 5px; 
-  margin-bottom: 50px;
-}
+  margin-top: 60px; 
+  /* margin-bottom: 50px; */
+} 
 .portfolio .box-container .box {
   height: 62rem;
   border-radius: 0.5rem;

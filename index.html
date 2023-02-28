@@ -16,28 +16,18 @@
   <body>
     <!-- header section starts  -->
 
-    <header class="header">
-      <div class="user">
-        <img style="height:10%;" src="./Images/Nitin.png"  alt="" />
-        <h3>Nitin Potbhare</h3>
-        <p>Java Backend Developer</p>
-      </div>
-
       <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#skills">skills</a>
-        <a href="#projects">projects</a>
-        <a href="#contact">contact</a>
+        <h3 id="npname">N.P.</h3>
+        <a class="navName" href="#home">home</a>
+        <a class="navName" href="#about">about</a>
+        <a class="navName" href="#skills">skills</a>
+        <a class="navName" href="#projects">projects</a>
+        <a class="navName" href="#contact">contact</a>
         <!-- <a href="./Images/Nitin_Potbhare_Resume.pdf" onclick="runredirect()">resume</a> -->
-        <a href="./Images/fw19_0749-Nitin_Potbhare_Resume.pdf" download target="_blank" class="btn" onclick="runredirect()">resume</a>
+        <a href="./Images/fw19_0749-Nitin_Potbhare_Resume.pdf" download target="_blank" class="btn navName" onclick="runredirect()">resume</a>
       </nav>
-    </header>
 
 
-    <!-- header section ends  -->
-
-    
     <div id="menu-btn" class="fas fa-bars"></div>
 
     <!-- theme toggler  --> 
@@ -46,16 +36,23 @@
 
 
       <!-- home section starts  -->
+      <div>
 
+      </div>
       <section class="home" id="home">
         <div class="content">
           <h3>
+            <br>
             <span>Hello, I'm </span>
             <span> Nitin Potbhare </span>
             
           </h3> 
-          <br>                   
+          <br>                
             <p> I am Java Backend Developer </p>
+            <br>
+            <br>
+            <br>
+            <br>
             <a
                 href="./Images/fw19_0749-Nitin_Potbhare_Resume.pdf"
                 download
@@ -64,7 +61,8 @@
                 >download Resume</a
             >
         </div>
-
+        <br>
+        <br>
         <div class="share">
             <!-- <a href="#" class="fab fa-facebook-f"></a> -->
             <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank" class="fa fa-envelope"></a>
@@ -77,8 +75,8 @@
             </a>
         </div>
     </section>
-
-    <!-- <hr style="border: 1px solid #1DA1F2;"> -->
+<!-- 
+     <hr style="border: 1px solid #1DA1F2;"> -->
 
     <!-- home section ends -->
     
@@ -87,27 +85,32 @@
 
     <section class="about" id="about">
       <h1 class="heading" id="webTech-about"><span>about</span> me</h1>
-
-      <div class="row">
-          <div class="content">
-              <h3>I am <span>Nitin Potbhare </span></h3>
-              <p>
-                Strong In Design And Integration With Intuitive Problem-Solving Skills.
-                Efficient In Java, Spring-Boot, SQL, and Javascript. Passionate About
-                Implementing And Launching New Projects. Ability To Translate Business
-                Requirements Into Technical Solutions. Looking To Start The Career as A
-                Backend Developer With A Reputed Firm Driven By Technology.
-              </p>
-              <!-- <a
-                  href="./files/Nitin Resume.pdf"
-                  download
-                  target="_blank"
-                  class="btn"
-              >
-                  Download Resume
-              </a> -->
-          </div>
+      <div class="aboutmeMain">
+        <div class="aboutmeImg" >
+          <img src="./Images/Nitin.png" alt="">
+        </div>
+        <div class="row">
+            <div class="content">
+                <h3>I am <span>Nitin Potbhare </span></h3>
+                <p>
+                  Strong In Design And Integration With Intuitive Problem-Solving Skills.
+                  Efficient In Java, Spring-Boot, SQL, and Javascript. Passionate About
+                  Implementing And Launching New Projects. Ability To Translate Business
+                  Requirements Into Technical Solutions. Looking To Start The Career as A
+                  Backend Developer With A Reputed Firm Driven By Technology.
+                </p>
+                <!-- <a
+                    href="./files/Nitin Resume.pdf"
+                    download
+                    target="_blank"
+                    class="btn"
+                >
+                    Download Resume
+                </a> -->
+            </div>
+        </div>
       </div>
+      
   </section>
 
   <hr style="border: 1px solid #1DA1F2;">
@@ -119,7 +122,7 @@
 
 
     <section class="skills" id="skills">
-      <h1 class="heading" id="webTech">my <span>Technical</span> Skills & Tools</span></h1>
+      <h1 class="heading" id="webTech-skills">my <span>Technical</span> Skills</span></h1>
       <div class="box-container">
         <div class="skills_div">
           <div class="skills_card">
@@ -132,12 +135,12 @@
           </div>
           <div class="skills_card">
             <div class="image_div">
-              <img src="./Images/SB.png" alt="" />
+              <img src="./Images/c++.png" alt="" />
             </div>
             <h1 class="skills_text">
-              <span id="skill_title" className="heading "> SPRING BOOT </span>
+              <span id="skill_title" className="heading "> C++ </span>
             </h1>
-          </div>
+          </div> 
           <div class="skills_card">
             <div class="image_div">
               <img src="./Images/MySQL-Logo.wine.png" alt="" />
@@ -170,6 +173,87 @@
               <span id="skill_title" className="heading "> CSS </span>
             </h1>
           </div>
+          <!-- <div class="skills_card">
+            <div class="image_div">
+              <img src="./Images/Visual.png" alt="" />
+            </div>
+            <h1 class="skills_text">
+              <span id="skill_title" className="heading "> VS Code </span>
+            </h1>
+          </div> -->
+          
+<!-- 
+          <div class="skills_card">
+            <div class="image_div">
+              <img src="./Images/github-brands.svg" alt="" />
+            </div>
+            <h1 class="skills_text">
+              <span id="skill_title" className="heading "> GitHub </span>
+            </h1>
+          </div> -->
+
+           <!-- <div class="skills_card">
+            <div class="image_div">
+              <img src="./Images/hibernate.png" alt="" />
+            </div>
+            <h1 class="skills_text">
+              <span id="skill_title" className="heading "> Hibernet </span>
+            </h1>
+          </div> -->
+
+        </div>
+      </div>
+      <h1 class="heading" id="webTech-skills">my <span>Technical</span> Tools</span></h1>
+      <div class="box-container">
+        <div class="skills_div">
+          <!-- <div class="skills_card">
+            <div class="image_div">
+              <img src="./Images/java.png" alt="" />
+            </div>
+            <h1 class="skills_text">
+              <span id="skill_title" className="heading "> Java </span>
+            </h1>
+          </div>  -->
+          <div class="skills_card">
+            <div class="image_div">
+              <img src="./Images/SB.png" alt="" />
+            </div>
+            <h1 class="skills_text">
+              <span id="skill_title" className="heading "> SPRING BOOT </span>
+            </h1>
+          </div>
+           <div class="skills_card">
+            <div class="image_div">
+              <img src="./Images/postman.png" alt="" />
+            </div>
+            <h1 class="skills_text">
+              <span id="skill_title" className="heading"> Postman </span>
+            </h1>
+          </div>
+          <div class="skills_card">
+            <div class="image_div">
+              <img src="./Images/IJ.png" alt="" />
+            </div>
+            <h1 class="skills_text">
+              <span id="skill_title" className="heading "> Intelij</span>
+            </h1>
+          </div>
+          <!-- <div class="skills_card">
+            <div class="image_div">
+              <img src="./Images/html.png" alt="" />
+            </div>
+            <h1 class="skills_text">
+              <span id="skill_title" className="heading "> HTML </span>
+            </h1>
+          </div> -->
+          <!-- <div class="skills_card">
+            <div class="image_div">
+              <img src="./Images/css.png" alt="" />
+            </div>
+            <h1 class="skills_text">
+              <span id="skill_title" className="heading "> CSS </span>
+            </h1>
+          </div>  -->
           <div class="skills_card">
             <div class="image_div">
               <img src="./Images/Visual.png" alt="" />
@@ -178,6 +262,7 @@
               <span id="skill_title" className="heading "> VS Code </span>
             </h1>
           </div>
+          
 
           <div class="skills_card">
             <div class="image_div">
@@ -196,9 +281,6 @@
               <span id="skill_title" className="heading "> Hibernet </span>
             </h1>
           </div>
-
-        </div>
-      </div>
     </section>
 
     <hr style="border: 1px solid #1DA1F2;">
@@ -619,7 +701,7 @@
     <!-- contact section starts  -->
 
     <section class="contact" id="contact">
-      <h1 class="heading"><span>contact</span> me</h1>
+      <h1 class="heading" id="webtech-contact"><span>contact</span> me</h1>
 
       <div class="row">
         <div class="content">

@@ -1,14 +1,14 @@
 let menu = document.querySelector("#menu-btn");
-let header = document.querySelector(".header");
+let navbar = document.querySelector(".navbar");
 
 menu.onclick = () => {
   menu.classList.toggle("fa-times");
-  header.classList.toggle("active");
+  navbar.classList.toggle("active");
 };
 
 window.onscroll = () => {
   menu.classList.remove("fa-times");
-  header.classList.remove("active");
+  navbar.classList.remove("active");
 };
 
 let themeToggler = document.querySelector("#theme-toggler");
