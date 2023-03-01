@@ -624,7 +624,7 @@ margin-top: 60px;
 }
 
 .portfolio .box-container .box img {
-  height: 30rem;
+  height: 25rem;
   width: 100%;
   /* object-fit: cover; */
 }
@@ -640,10 +640,10 @@ margin-top: 60px;
   place-items: center;
   transform: scale(0);
 }
-
+/* 
 .portfolio .box-container .box:hover .content {
   transform: scale(1);
-}
+} */
 
 .portfolio .box-container .box .content h3 {
   font-size: 2.5rem;
@@ -654,11 +654,11 @@ margin-top: 60px;
   transition-delay: 0.3s;
   color: #1DA1F2;
 }
-
+/* 
 .portfolio .box-container .box:hover .content h3 {
   transform: translateY(0rem);
   opacity: 1;
-}
+} */
 
 .icons-git {
   cursor: pointer !important;
@@ -671,18 +671,34 @@ margin-top: 60px;
 }
 
 .newDiv {
-  height: 10rem;
+  height: 12rem;
   width: 100%;
+  padding: 11px;
 }
 
 .newDiv > h3 {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--black);
-  text-transform: uppercase;
-  padding: 1rem 1rem;
+  margin-top: 4px;
+  /* text-transform: uppercase; */
+  /* padding: 1rem 1rem; */
 }
+.newDiv p{
+  font-size: 14px;
 
+ }
+ 
+.projectbtn{
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  width: 100%;
+  margin-top: 25px;
+}
+.projectbtn img:hover{
+  cursor: pointer;
+} 
 .stats {
   height: fit-content;
   display: flex;
