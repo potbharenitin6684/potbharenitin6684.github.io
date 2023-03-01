@@ -640,10 +640,11 @@ margin-top: 60px;
   place-items: center;
   transform: scale(0);
 }
-/* 
+
 .portfolio .box-container .box:hover .content {
   transform: scale(1);
-} */
+  height: 25rem;
+} 
 
 .portfolio .box-container .box .content h3 {
   font-size: 2.5rem;
@@ -654,11 +655,11 @@ margin-top: 60px;
   transition-delay: 0.3s;
   color: #1DA1F2;
 }
-/* 
+
 .portfolio .box-container .box:hover .content h3 {
   transform: translateY(0rem);
   opacity: 1;
-} */
+} 
 
 .icons-git {
   cursor: pointer !important;
