@@ -640,11 +640,11 @@ margin-top: 60px;
   place-items: center;
   transform: scale(0);
 }
-
+/* 
 .portfolio .box-container .box:hover .content {
   transform: scale(1);
   height: 25rem;
-} 
+}  */
 
 .portfolio .box-container .box .content h3 {
   font-size: 2.5rem;
@@ -696,6 +696,7 @@ margin-top: 60px;
   column-gap: 50px;
   width: 100%;
   margin-top: 25px;
+  font-weight: bold;
 }
 .projectbtn img:hover{
   cursor: pointer;
