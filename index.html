@@ -1,623 +1,764 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nitin Potbhare Portfolio</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nitin Potbhare Portfolio</title>
-  <link rel="icon" href="./Images/Nitin.png" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- font awesome cdn link  -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    /> -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- custom cursors  -->
+    <div class="cursor-1"></div>
+    <div class="cursor-2"></div>
 
-  <link rel="stylesheet" href="style.css" />
-</head>
+    <div id="menu-bars" class="fas fa-bars"></div>
 
-<body>
-  <!-- header section starts  -->
+    <!-- header section starts  -->
 
-  <nav class="navbar">
-    <h3 id="npname">N.P.</h3>
-    <a class="navName" href="#home">home</a>
-    <a class="navName" href="#about">about</a>
-    <a class="navName" href="#skills">skills</a>
-    <a class="navName" href="#projects">projects</a>
-    <a class="navName" href="#contact">contact</a>
-    <!-- <a href="./Images/Nitin_Potbhare_Resume.pdf" onclick="runredirect()">resume</a> -->
-    <a href="./Images/Nitin_Potbhare_Resume.pdf" download target="_blank" class="btn navName"
-      onclick="runredirect()">resume</a>
-  </nav>
+    <header>
+    
 
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#service">Skills</a>
+        <a href="#experience">Work Experience</a>
+        <a href="#qualification">qualification</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">contact</a>
+        <a href="https://drive.google.com/file/d/1IuV-bMNLVgjvRK2uytfhEO8kjw2ug-F6/view?usp=sharing"  download="Nitin_Potbhare_Resume"  onclick="handleClick()">
+                    
+          <span class="txt-container">Resume</span>  
+          </a>
+        </a>
+      </nav>
 
-  <div id="menu-btn" class="fas fa-bars"></div>
-
-  <!-- theme toggler  -->
-
-  <div id="theme-toggler" class="fas fa-moon"></div>
-
-
-  <!-- home section starts  -->
-  <div>
-
-  </div>
-  <section class="home" id="home">
-    <div class="content">
-      <h3>
-        <br>
-        <span>Hello, I'm </span>
-        <span> Nitin Potbhare </span>
-
-      </h3>
-      <br>
-      <p> I am Java Backend Developer </p>
-      <br>
-      <br>
-      <br>
-      <br>
-      <a href="./Images/Nitin_Potbhare_Resume.pdf" download target="_blank" class="btn">download Resume</a>
-    </div>
-    <br>
-    <br>
-    <div class="share">
-      <!-- <a href="#" class="fab fa-facebook-f"></a> -->
-      <a href="https://mail.google.com/mail/u/1/#inbox" target="_blank" class="fa fa-envelope"></a>
-      <!-- fa-light fa-envelope -->
-      <a href="https://github.com/potbharenitin6684/" target="_blank" class="fab fa-github"></a>
-      <!-- <a href="#" class="fab fa-pinterest"></a> -->
-      <a href="#" class=""></a>
-      <a href="https://www.linkedin.com/in/nitin-potbhare-71b883283/" target="_blank" class="fab fa-linkedin">
-
-      </a>
-    </div>
-  </section>
-  <!-- 
-     <hr style="border: 1px solid #1DA1F2;"> -->
-
-  <!-- home section ends -->
-
-
-
-
-  <section class="about" id="about">
-    <h1 class="heading" id="webTech-about"><span>about</span> me</h1>
-    <div class="aboutmeMain">
-      <div class="aboutmeImg">
-        <img src="./Images/Nitin.png" alt="">
+      <div class="follow">
+        <a
+          href="https://github.com/potbharenitin6684"
+          target="blank"
+          class="fab fa-github"
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/nitin-potbhare-7046a2352/?skipRedirect=true"
+          class="fab fa-linkedin"
+          target="blank"
+          class="fab fa-linked"
+        ></a>
+        <a
+          href="https://wa.me/9834015958"
+          class="fab fa-whatsapp"
+          target="blank"
+          class="fab fa-whatsapp"
+        ></a>
       </div>
-      <div class="row">
-        <div class="content">
-          <h3>I am <span>Nitin Potbhare </span></h3>
-          <p>
-            Strong In Design And Integration With Intuitive Problem-Solving Skills.
-            Efficient In Java, Spring-Boot, SQL, and Javascript. Passionate About
-            Implementing And Launching New Projects. Ability To Translate Business
-            Requirements Into Technical Solutions. Looking To Start The Career as A
-            Backend Developer With A Reputed Firm Driven By Technology.
-          </p>
-          <!-- <a
-                    href="./files/Nitin Resume.pdf"
-                    download
-                    target="_blank"
-                    class="btn"
-                >
-                    Download Resume
-                </a> -->
-        </div>
-      </div>
-    </div>
+    </header>
 
-  </section>
+    <!----------------------------------- header section ends-------------------------------------------------------------------->
 
-  <hr style="border: 1px solid #1DA1F2;">
-  <!-- about section ends -->
+    <!-------------------------- home section starts  ---------------------------------------------->
 
-
-
-  <!-- skills section start -->
-
-
-  <section class="skills" id="skills">
-    <h1 class="heading" id="webTech-skills">my <span>Technical</span> Skills</span></h1>
-    <div class="box-container">
-      <div class="skills_div">
-        <div class="skills_card">
-          <div class="image_div">
-            <img src="./Images/java.png" alt="" />
-          </div>
-          <h1 class="skills_text">
-            <span id="skill_title" className="heading "> Java </span>
-          </h1>
-        </div>
-        <div class="skills_card">
-          <div class="image_div">
-            <img src="./Images/c++.png" alt="" />
-          </div>
-          <h1 class="skills_text">
-            <span id="skill_title" className="heading "> C++ </span>
-          </h1>
-        </div>
-        <div class="skills_card">
-          <div class="image_div">
-            <img src="./Images/MySQL-Logo.wine.png" alt="" />
-          </div>
-          <h1 class="skills_text">
-            <span id="skill_title" className="heading"> MySQL </span>
-          </h1>
-        </div>
-        <div class="skills_card">
-          <div class="image_div">
-            <img src="./Images/js.png" alt="" />
-          </div>
-          <h1 class="skills_text">
-            <span id="skill_title" className="heading "> JAVASCRIPT</span>
-          </h1>
-        </div>
-        <div class="skills_card">
-          <div class="image_div">
-            <img src="./Images/html.png" alt="" />
-          </div>
-          <h1 class="skills_text">
-            <span id="skill_title" className="heading "> HTML </span>
-          </h1>
-        </div>
-        <div class="skills_card">
-          <div class="image_div">
-            <img src="./Images/css.png" alt="" />
-          </div>
-          <h1 class="skills_text">
-            <span id="skill_title" className="heading "> CSS </span>
-          </h1>
-        </div>
-        <!-- <div class="skills_card">
-            <div class="image_div">
-              <img src="./Images/Visual.png" alt="" />
-            </div>
-            <h1 class="skills_text">
-              <span id="skill_title" className="heading "> VS Code </span>
-            </h1>
-          </div> -->
-
-        <!-- 
-          <div class="skills_card">
-            <div class="image_div">
-              <img src="./Images/github-brands.svg" alt="" />
-            </div>
-            <h1 class="skills_text">
-              <span id="skill_title" className="heading "> GitHub </span>
-            </h1>
-          </div> -->
-
-        <!-- <div class="skills_card">
-            <div class="image_div">
-              <img src="./Images/hibernate.png" alt="" />
-            </div>
-            <h1 class="skills_text">
-              <span id="skill_title" className="heading "> Hibernet </span>
-            </h1>
-          </div> -->
-
-      </div>
-    </div>
-    <h1 class="heading" id="webTech-skills">my <span>Technical</span> Tools</span></h1>
-    <div class="box-container">
-      <div class="skills_div">
-        <!-- <div class="skills_card">
-            <div class="image_div">
-              <img src="./Images/java.png" alt="" />
-            </div>
-            <h1 class="skills_text">
-              <span id="skill_title" className="heading "> Java </span>
-            </h1>
-          </div>  -->
-        <div class="skills_card">
-          <div class="image_div">
-            <img src="./Images/SB.png" alt="" />
-          </div>
-          <h1 class="skills_text">
-            <span id="skill_title" className="heading "> SPRING BOOT </span>
-          </h1>
-        </div>
-        <div class="skills_card">
-          <div class="image_div">
-            <img src="./Images/postman.png" alt="" />
-          </div>
-          <h1 class="skills_text">
-            <span id="skill_title" className="heading"> Postman </span>
-          </h1>
-        </div>
-        <div class="skills_card">
-          <div class="image_div">
-            <img src="./Images/IJ.png" alt="" />
-          </div>
-          <h1 class="skills_text">
-            <span id="skill_title" className="heading "> Intelij</span>
-          </h1>
-        </div>
-        <!-- <div class="skills_card">
-            <div class="image_div">
-              <img src="./Images/html.png" alt="" />
-            </div>
-            <h1 class="skills_text">
-              <span id="skill_title" className="heading "> HTML </span>
-            </h1>
-          </div> -->
-        <!-- <div class="skills_card">
-            <div class="image_div">
-              <img src="./Images/css.png" alt="" />
-            </div>
-            <h1 class="skills_text">
-              <span id="skill_title" className="heading "> CSS </span>
-            </h1>
-          </div>  -->
-        <div class="skills_card">
-          <div class="image_div">
-            <img src="./Images/Visual.png" alt="" />
-          </div>
-          <h1 class="skills_text">
-            <span id="skill_title" className="heading "> VS Code </span>
-          </h1>
-        </div>
-
-
-        <div class="skills_card">
-          <div class="image_div">
-            <img src="./Images/github-brands.svg" alt="" />
-          </div>
-          <h1 class="skills_text">
-            <span id="skill_title" className="heading "> GitHub </span>
-          </h1>
-        </div>
-
-        <div class="skills_card">
-          <div class="image_div">
-            <img src="./Images/hibernate.png" alt="" />
-          </div>
-          <h1 class="skills_text">
-            <span id="skill_title" className="heading "> Hibernet </span>
-          </h1>
-        </div>
-  </section>
-
-  <hr style="border: 1px solid #1DA1F2;">
-  <!-- skills section ends -->
-
-
-
-  <!-- project section start -->
-
-  <section class="portfolio" id="projects">
-    <h1 class="heading" id="webTech-myproject">my <span>projects</span></h1>
-
-    <div class="box-container">
-
-
-      <div class="box">
-
-        <img src="./Images/MGNAREGA.png" alt="" />
-        <div class="content">
-          <h3>MGNREGA </h3>
-        </div>
-        <div class="newDiv">
-          <p style="color:#1DA1F2; font-weight: bold; font-size: 18px; text-align: center;" >MGNREGA</p>
-          <h3>The objective of this project is to manage employments offered through this scheme for Employee.</h3>
-          <h3 style="color:#1DA1F2; font-weight: bold; font-size: 18px;">TECH STACK:</h3>
-          <h3>Built with JAVA,MySQL,JDBC, Dao Pattern. </h3>
-          <h3 style="color:#1DA1F2; font-weight: bold; font-size: 18px;">FEATURES :</h3>
-          <h3>Login BDO, GPM , Create Project, Employee, Allocate Project</h3>
-          <div class="projectbtn">
-            <a class="icons-git" target="_blank" rel="noreferrer"
-              href="https://github.com/potbharenitin6684/MGNREGA"><img width="20px"
-                src="./Images/github-brands.svg" style="height: 30px; width: 30px" alt="">Github</a>
-
-            <a class="icons-git" target="_blank" rel="noreferrer"
-              href="https://drive.google.com/file/d/14_ANDeNKJLiGhSHecxtt1kY2ox9ECGju/view?usp=share_link"><img width="20px"
-                src="./Images/globe-solid.svg" style="height: 30px; width: 30px" alt="">Live</a>
-          </div>
-        </div>
+    <section class="home" id="home">
+      <div class="content">
+        <span class="hi"> hi there... </span>
+        <h3>i am <span>Nitin Potbhare</span ></h3>
+        <p class="info">Assistant Professor</p>
+        <p class="text" id="lowercase">
+         Assistant Professor with a strong blend of teaching and industry experience, specializing in Java, C, C++, Data Structures, Operating Systems, and Full-Stack Development. Passionate about outcome-based education, curriculum development, student mentoring, and preparing learners for successful IT careers.
+        </p>
+        <a href="#about" class="btn">about me</a>
       </div>
 
-
-      <div class="box">
-        <img src="./Images/Amusement Park application logo.PNG" alt="" />
-        <div class="content">
-          <h3>Amusement Park App </h3>
-        </div>
-        <div class="newDiv">
-          <p style="color:#1DA1F2; font-weight: bold; font-size: 18px; text-align: center;" >Amusement Park App</p>
-          <h3> The main objectives of this project to know the package related to the Amusement Park.</h3>
-          <h3 style="color:#1DA1F2; font-weight: bold; font-size: 18px;">TECH STACK:</h3>
-          <h3>Built with JAVA, MySQL, html, JS, CSS </h3>
-          <h3 style="color:#1DA1F2; font-weight: bold; font-size: 18px; letter-spacing: 1px;" >FEATURES :</h3>
-          <h3>Admin login, user login,Insert Activity,Ticket book,View all Tickets</h3>
-          <div class="projectbtn">
-            <a class="icons-git" target="_blank" rel="noreferrer"
-              href="https://github.com/Vedpaswan01/Amusement-Park-application"><img width="20px"
-                src="./Images/github-brands.svg" style="height: 30px; width: 30px" alt="">GitHub</a>
-
-            <a class="icons-git" target="_blank" rel="noreferrer"
-              href="https://drive.google.com/file/d/1WzsiL5qZ0lmFyJU-goD6BMdOZ7GS8Cul/view?usp=share_link"><img width="20px"
-                src="./Images/globe-solid.svg" style="height: 30px; width: 30px" alt="">Live</a>
-          </div>
-        </div>
+      <div class="image" >
+         <img  id="profile_image" src="./images/Nitin.png" alt="" />
       </div>
+    </section>
 
+    <!-- home section ends -->
 
-      <div class="box">
-        <img style=" object-fit: cover" src="./Images/KindMeal.png" alt="" />
-        <div class="content">
-          <h3>Kind-Meal.My Clone</h3>
-        </div>
-        <div class="newDiv">
-          <p style="color:#1DA1F2; font-weight: bold; font-size: 18px; text-align: center;" >Kind-Meal.My Clone</p>
-          <h3>KindMeal is Malaysia's pioneering meat-free lifestyle platform. We provide an effective platform</h3>
-          <h3 style="color:#1DA1F2; font-weight: bold; font-size: 18px; letter-spacing: 1px;" >TECH STACK:</h3>
-          <h3>Built with HtMl, CSS, JavaScript</h3>
-          <h3 style="color:#1DA1F2; font-weight: bold; font-size: 18px; letter-spacing: 1px;" >FEATURES :</h3>
-          <h3> Homepage,Login Page,Signup Page,Product Page </h3>
-          <div class="projectbtn">
-            <a class="icons-git" target="_blank" rel="noreferrer"
-              href="https://github.com/Loki343/arrogant-beef-5673"><img width="20px"
-                src="./Images/github-brands.svg" style="height: 30px; width: 30px" alt="">GitHub</a>
+    <!-- about section starts  -->
 
-            <a class="icons-git" target="_blank" rel="noreferrer"
-              href="https://verdant-alpaca-c375a0.netlify.app/"><img width="20px"
-                src="./Images/globe-solid.svg" style="height: 30px; width: 30px" alt="">Live</a>
-          </div>
-        </div>
-      </div>
-      <div class="box">
-        <img style=" object-fit:cover" src="./Images/Nykaa.png" alt="" />
-        <div class="content">
-          <h3>Nykaa Clone</h3>
-        </div>
-        <div class="newDiv">
-          <p style="color:#1DA1F2; font-weight: bold; font-size: 18px; text-align: center;" >Nykaa Clone</p>
-          <h3>Nykaa is an Indian e-commerce company, founded by Masume Rao N in 2012 and head quartered in
-            Visakhapatnam.</h3>
-          <h3 style="color:#1DA1F2; font-weight: bold; font-size: 18px;">TECH STACK:</h3>
-          <h3>Built with HTML, CSS ,JAVASCRIPT</h3>
-          <h3 style="color:#1DA1F2; font-weight: bold; font-size: 18px;" >FEATURES:</h3>
-          <h3>
-            Homepage,Login Page,Signup Page,Product Page
-          </h3>
-          <div class="projectbtn">
-            <a class="icons-git" target="_blank" rel="noreferrer"
-              href="https://github.com/potbharenitin6684/Nykaa-clone"><img width="20px"
-                src="./Images/github-brands.svg" style="height: 30px; width: 30px" alt="">GitHub</a>
+    <section class="about" id="about">
+      <h1 class="heading">about <span> me </span></h1>
 
-            <a class="icons-git" target="_blank" rel="noreferrer"
-              href="https://deluxe-scone-c59af5.netlify.app/"><img width="20px"
-                src="./Images/globe-solid.svg" style="height: 30px; width: 30px" alt="">Live</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="box">
-        <img src="./Images/Urbon.png" alt="" />
-        <div class="content">
-          <h3>Urban Company</h3>
-        </div>
-        <div class="newDiv">
-          <p style="color:#1DA1F2; font-weight: bold; font-size: 18px; text-align: center;" >Urban Company</p>
-          <h3>Urban Company is yours one step destination for expert local services.</h3>
-          <h3 style="color:#1DA1F2; font-weight: bold; font-size: 18px;">TECH STACK:</h3>
-          <h3>Built with HTML, CSS ,JAVASCRIPT</h3>
-          <h3 style="color:#1DA1F2; font-weight: bold; font-size: 18px;">FEATURES :</h3>
-          <h3>Homepage,Login Page,Signup Page,Product Page Payment Page.
-          </h3>
-          <div class="projectbtn">
-            <a class="icons-git" target="_blank" rel="noreferrer"
-              href="https://github.com/chanchal-soni98/outgoing-mine-4990"><img width="20px"
-                src="./Images/github-brands.svg" style="height: 30px; width: 30px" alt="">GitHub</a>
-
-            <a class="icons-git" target="_blank" rel="noreferrer"
-              href="https://capable-dragon-d91ac8.netlify.app/"><img width="20px"
-                src="./Images/globe-solid.svg" style="height: 30px; width: 30px" alt="">Live</a>
-          </div>
-        </div>
-      </div>
-      <!-- 
-<div class="box">
-            <img  src="./Images/FoodApp.PNG" alt="" />
-            <div class="content">
-                <h3>Indian Food App </h3>
-                <div
-                style="
-                    display: flex;
-                    justify-content: space-around;
-                    width: 40%;
-                "
-            >
-                <a
-                    class="icons-git"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://github.com/potbharenitin6684/Indian-Food-App"
-                >
-                    <img
-                        style="height: 100%; width: 100%"
-                        src="./Images/github-brands.svg"
-                        alt=""
-                    />
-                </a>
-                <a
-                    class="icons-git"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://vermillion-marshmallow-ac945f.netlify.app/"
-                >
-                    <img
-                        style="height: 100%; width: 100%"
-                        src="./Images/globe-solid.svg"
-                        alt=""
-                    />
-                </a>
-            </div>
-            </div>
-            <div class="newDiv">
-                <h3>Indian-Food-App Indian Food App brings together over one thousand recipes in India. The app lets you save the dishes offline for future use.</h3>
-                <h3>TECH STACK:</h3>
-                <h3>Built with HTML, CSS ,JAVASCRIPT</h3>
-                <h3>FEATURES :</h3>
-               <h3>Homepage,Login Page,Signup Page,Product Page.
-                  </h3>
-
-            </div>
+      <div class="row-1">
+        <!-- <div class="image">
+          <img src="./images/IMG_20221023_180941-removebg-preview (1).png" alt="" />
         </div> -->
 
-      <!--         
-<div class="box">
-  <img  src="./Images/MGNAREGA.png" alt="" />
-  <div class="content">
-      <h3>MGNREGA </h3>
-      <div
-      style="
-          display: flex;
-          justify-content: space-around;
-          width: 40%;
-      "
-  >
-      <a
-          class="icons-git"
+        <div class="content">
+       
+          <p id="lowercase">
+           I am an Assistant Professor and Software Developer with 5.6 years of professional experience, combining academic excellence with real-world industry expertise. I specialize in Java, Spring Boot, Full-Stack Development, and Software Engineering, while teaching Computer Science subjects such as Java, C, C++, Data Structures, and Operating Systems. My mission is to bridge the gap between academia and industry by equipping students with practical, job-ready skills. As the NPTEL SPOC, I actively promote continuous learning, professional certifications, and student development. I am passionate about mentoring future software engineers, building innovative solutions, and contributing to research, technology, and education.
+          </p>
+          <div class="box-container">
+            <!-- <div class="box">
+              <p><span> Date of Birth : </span>November 20, 1997</p>
+              <p><span> gender : </span> male</p>
+              <p><span> language : </span> hindi, english</p>
+              <p><span> work : </span> back-end developer</p>
+            </div> -->
+            <!-- <div class="box">
+              <p><span> phone : </span> 7762039335</p>
+              <p><span> email : </span> vedpaswan01@gmail.com</p>
+              <p><span> country : </span> india</p>
+            </div> -->
+          </div>
+
+          <a
+          id="myyfun"
           target="_blank"
-          rel="noreferrer"
-          href="https://github.com/potbharenitin6684/MGNREGA"
-      >
-          <img
-              style="height: 100%; width: 100%"
-              src="./Images/github-brands.svg"
-              alt=""
-          />
-      </a>
-      <a
-          class="icons-git"
-          target="_blank"
-          rel="noreferrer"
-          href="https://drive.google.com/file/d/14_ANDeNKJLiGhSHecxtt1kY2ox9ECGju/view?usp=share_link"
-      >
-          <img
-              style="height: 100%; width: 100%"
-              src="./Images/globe-solid.svg"
-              alt=""
-          />
-      </a>
-  </div>
-  </div>
-  <div class="newDiv">
-      <h3>Main objective of this project is to manage employments offered through this scheme.</h3>
-      <h3>TECH STACK:</h3>
-      <h3>Built with JAVA,MySQL,JDBC, Dao Pattern. </h3>
-      <h3>FEATURES :</h3>
-     <h3>Login BDO,GPM,Create Project,Employee,Allocate Project to Employee,Assign Project to Employee</h3>
+          class="btn"
+          href="./File/Nitin_Potbhare_Resume.pdf"
+          download
+          >Download Resume</a>
 
-  </div>
-</div> -->
-
-    </div>
-
-  </section>
-
-  <hr style="border: 1px solid #1DA1F2;margin-top: 50px;">
-
-  <!-- about section starts  -->
-
-  <section class="about" id="about">
-    <h1 class="heading" id="webTech-statis"><span>STATISTICS</span></h1>
-
-    </div>
-
-
-    <div class="container" id="stat" style="margin-bottom: 4%;">
-      <!-- <h1 class="sub-titl">My Stats</h1> -->
-      <h1><br></h1>
-
-      <div class="stats" style="width: 100%;">
-        <img
-          src="https://github-readme-stats.vercel.app/api?username=potbharenitin6684&theme=dark&hide_border=false&include_all_commits=true&count_private=false"
-          alt="">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=potbharenitin6684&theme=dark&hide_border=false"
-          alt="">
-        <img
-          src="https://github-readme-stats.vercel.app/api/top-langs/?username=potbharenitin6684&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact"
-          alt="">
-      </div>
-
-      <div class="calendar" style=" color: #1DA1F2">
-        <!-- Loading stuff -->
-        Loading the data just for you.
-      </div>
-
-    </div>
-
-    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-
-    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
-
-    <!-- Prepare a container for your calendar. -->
-
-
-    <script>
-      GitHubCalendar(".calendar", "potbharenitin6684");
-
-      GitHubCalendar(".calendar", "potbharenitin6684", { responsive: true });
-    </script>
-
-
-  </section>
-
-
-
-  <!-- about section ends -->
-
-
-
-
-
-  <hr style="border: 1px solid #1DA1F2; margin-bottom: 40px;">
-
-  <!-- contact section starts  -->
-
-  <section class="contact" id="contact">
-    <h1 class="heading" id="webtech-contact"><span>contact</span> me</h1>
-
-    <div class="row">
-      <div class="content">
-        <h3 class="title">contact info</h3>
-
-        <div class="info">
-          <h3><i class="fas fa-envelope"></i>potbharenitin03@gmail.com</h3>
-          <h3><i class="fas fa-phone"></i> 9834015958 </h3>
-          <h3><i class="fab fa-github"></i>
-            <a href="https://github.com/potbharenitin6684" target="_blank">Github</a>
-          </h3>
-          <h3><i class="	fab fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/nitin-potbhare-71b883283/" target="_blank">linkedin</a>
-          </h3>
-
-          <h3> <i class="fas fa-map-marker-alt"></i> Azad Colony Kalewadi Pune.
-          </h3>
+          <!-- <a
+            href="./File/Nitin_Potbhare_Resume.pdf"
+            target="_blank"
+            class="btn",download
+            >download CV</a> -->
+          <!-- <a href="#" class="btn">hire me</a> -->
         </div>
       </div>
 
+      <h1 class="heading" id="tech_head"><span> my </span> tech-skills</h1>
+
+      <div class="row-2">
+        <div class="box-container skill-container">
+          <div class="box">
+            <img src="images/java-svgrepo-com.svg" alt="JAVA logo" />
+            <h3 class="h3">JAVA</h3>
+          </div>
+          <div class="box">
+            <img src="images/mysqlworkbench_102952.svg" alt="Mysql logo" />
+            <h3 class="h3">MYSQL</h3>
+          </div>
+          <div class="box">
+            <img src="images/C-and-C-Programming-course-500x300.webp" alt="Mysql logo" />
+            <h3 class="h3">C/C++</h3>
+          </div>
+
+          <div class="box">
+            <img
+              src="images/hibernate_logo_icon_171004.svg"
+              alt="Hibernate logo"
+            />
+            <h3 class="h3">HIBERNATE</h3>
+          </div>
+          <div class="box">
+            <img src="images/spring-boot-logo.png" alt="SpringBoot logo" />
+            <h3 class="h3">SPRING BOOT</h3>
+          </div>
+          <div class="box">
+            <img src="images/spring-icon.svg" alt="Spring logo" />
+            <h3 class="h3">SPRING</h3>
+          </div>
+          <div class="box">
+            <img src="images/icons8-javascript.svg" alt="JavaScript logo" />
+            <h3 class="h3">JAVASCRIPT</h3>
+          </div>
+          <div class="box">
+            <img src="images/icons8-css3.svg" alt="CSS logo" />
+            <h3 class="h3">CSS</h3>
+          </div>
+          <div class="box">
+            <img src="images/icons8-html-5.svg" alt="html5 logo" />
+            <h3 class="h3">HTML 5</h3>
+          </div>
+          <div class="box">
+            <img src="images/icons8-github.svg" alt="Github logo" />
+            <h3 class="h3">GITHUB</h3>
+          </div>
+          <div class="box">
+            <img src="images/visual-studio-code-icon.svg" alt="Spring logo" />
+            <h3 class="h3">VS CODE</h3>
+          </div>
+          <div class="box">
+            <img src="images/icons8-git.svg" alt="Spring logo" />
+            <h3 class="h3">GIT</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- service section starts  -->
+
+    <section class="service" id="service">
+      <h1 class="heading"><span> my </span> proficiencies</h1>
+
+      <div class="box-container">
+         <div class="box">
+          <img src="images/🎓 Teaching & Student Mentoring.webp" alt="Spring logo" />
+          <h3>🎓 Teaching & Student Mentoring </h3>
+          <p id="lowercase">Deliver engaging, outcome-based learning experiences that enhance students' technical and problem-solving abilities.</p>
+        </div>
+
+         <div class="box">
+          <img src="images/📚 Curriculum Development & Outcome-Based Education (OBE).jpg" alt="Spring logo" />
+          <h3>📚 Curriculum Development & Outcome-Based Education (OBE) </h3>
+          <p id="lowercase">Design industry-aligned course content, lesson plans, and assessments following OBE principles</p>
+        </div>
+
+         <div class="box">
+          <img src="images/java-svgrepo-com.svg" alt="Spring logo" />
+          <h3>☕ Java Programming </h3>
+          <p id="lowercase">Strong expertise in Core Java, Object-Oriented Programming, and application development.</p>
+        </div>
+
+         <div class="box">
+          <img src="images/C and Java.webp" alt="Spring logo" />
+          <h3>💻 Object-Oriented Programming (Java & C++) </h3>
+          <p id="lowercase">Build a strong foundation in OOP concepts such as classes, inheritance, polymorphism, abstraction, and encapsulation.</p>
+        </div>
+
+        <div class="box">
+          <img src="images/Data structure.png" alt="Spring logo" />
+          <h3>📊 Data Structures & Algorithms </h3>
+          <p id="lowercase">Teach efficient data structures and algorithmic problem-solving techniques.</p>
+        </div>
+
+        <div class="box">
+          <img src="images/DBMS.png" alt="Spring logo" />
+          <h3>🖥️ Operating Systems & DBMS </h3>
+          <p id="lowercase">Provide in-depth knowledge of operating system concepts, process management, memory management, and database design.</p>
+        </div>
+
+         <div class="box">
+          <img src="images/spring boot1.svg" alt="Spring logo" />
+          <h3>🌱 Spring Boot & Backend Development </h3>
+          <p id="lowercase">Develop scalable backend applications using Spring Boot, RESTful APIs, and MySQL.</p>
+        </div>
+
+         <div class="box">
+          <img src="images/research-project.webp" alt="Spring logo" />
+          <h3>🔬 Research, Innovation & Academic Project Guidance </h3>
+          <p id="lowercase">Encourage research-oriented learning and innovative problem-solving among students.</p>
+        </div>
+
+        <div class="box">
+          <img src="images/NPTEL1.png" alt="Spring logo" />
+          <h3>🏅 NPTEL SPOC & Academic Coordination. </h3>
+          <p id="lowercase">Coordinate NPTEL registrations, certifications, examinations, and student engagement activities.</p>
+        </div>
+
+        <div class="box">
+          <img src="images/🤝 Leadership, Communication & Technical Training.jpg" alt="Spring logo" />
+          <h3>🤝 Leadership, Communication & Technical Training </h3>
+          <p id="lowercase">Demonstrate effective leadership through academic coordination, mentoring, and faculty collaboration.</p>
+        </div>
+
+        <div class="box">
+          <img src="images/web application.webp" alt="Spring logo" />
+          <h3>web application</h3>
+          <p id="lowercase">Developing sustainable web applications with clean codes.</p>
+        </div>
+
+        <div class="box">
+          <img src="images/Backend Refactoring.png" alt="Spring logo" />
+          <h3>Backend Refactoring</h3>
+          <p id="lowercase">Rebuilding existing systems for speed and stability</p>
+        </div>
+    <!--    
+        <div class="box">
+          <img src="images/algorithm.svg" alt="Spring logo" />
+          <h3>DATA STRUCTURES AND ALGORITHMS</h3>
+          <p id="lowercase">Solved 300+ DSA problems in masai OJ platform.</p>
+        </div>  -->
+      </div>
+    </section>
+
+    <!-- service section ends -->
+
+
+
+  <!-- experience section starts  -->
+
+    <section class="experience" id="experience">
+      <h1 class="heading"><span> Work </span>Experience</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="content">
+            <span> Jun 2025-Present </span>
+            <h3>G.H.Raisoni International Skill Tech University Pune</h3>
+            <p>Experienced and dedicated Assistant Professor in Computer Science and Engineering,currently serving at G H Raisoni International Skill Tech University.Proficient in teaching
+C,C++, Java, Data Structures, Algorithms, Object-Oriented Programming, Operating Systems,Database Management Systems, and Web Technologies
+. Skilled in curriculum development,student mentoring, and integrating industry best practices into academic teaching. Serving as a
+Board of Studies (BoS) Member
+,</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="content">
+            <span>Jun-2024 to Jun-2025 </span>
+            <h3>Creanovation Technologies Pvt. Ltd.(Bahra University-Shimla)</h3>
+            <p id="lowercase">
+            Enthusiastic and student-focused Assistant Professor with 1 year of teaching experience inComputer Science and Engineering. Proficient in teaching both theoretical concepts andpractical laboratory courses in C, C++, Java, Data Structures, Algorithms, Object-OrientedProgramming, and Web Technologies.
+              <br />
+              
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="content">
+            <span> Feb-2022 to 01 Feb-2024 </span>
+            <h3>Tech Mahindra Pvt.Ltd.</h3>
+            <p id="lowercase">
+Java Full Stack Developer <br>
+Project:
+Payment Hub-Accelerating Deployment Through Smart Automation<br>
+Role:
+Software Engineer<br>
+Technologies:
+Java, Spring MVC, Spring Boot, MySQL, Microservices, HTML, CSS, JavaScript,Web Services
+Description:<br>
+Payment Hub is a sophisticated conversational assistant platform hosted on HSBC'sinternal cloud infrastructure. It enables various business units and operational functions tocentralize, streamline, and enhance the management and distribution of essential processes,organizational policies, and procedural frameworks.
+              <br />
+            
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- experience section ends -->
+
+
+
+
+
+
+
+    <!-- education section starts  -->
+
+    <section class="qualification" id="qualification">
+      <h1 class="heading"><span> My </span> Qualification</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="content">
+            <span>2020–2022.</span>
+            <h3>Master of Technology in Computer Science and Information Technology</h3>
+            <p>Dr.Babasaheb Ambedkar Technological University</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="content">
+            <span> 2016–2018 </span>
+            <h3>Bachelor of Engineering in Computer Science and Engineering</h3>
+            <p id="lowercase">
+            Dr.Babasaheb Ambedkar Marathwada University
+              <br />
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="content">
+            <span> 2013–2015</span>
+            <h3>Polytechnic Diploma in Computer Engineering</h3>
+            <p id="lowercase">
+             T.B.Girwalkar Polytechnic College,Ambajogai
+              <br />
+            
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- education section ends -->
+
+    <!-- portfolio section starts  -->
+
+    <section class="portfolio" id="portfolio">
+      <h1 class="heading"><span> my </span> projects</h1>
+
+      <div class="box-container">
+
+
+
+
+        <div class="box"  id="proj_div">
+          <img src="images/logo.png" alt="" />
+          <h4 style="font-size: 15px">Amusement park Application-Full-Stack</h4>
+          <div class="icons"  class="github_chrome">
+            <a id="github_chrome" href="https://github.com/Vedpaswan01/Amusement-Park-application-Full-Stack-" target="_blank" <i class="fab fa-github"></i></a>
+            <a  id="github_chrome" href="https://drive.google.com/file/d/15ETuXwxbUS_oltXvYvAJBYR9J6dmkhHT/view" target="blank" <i class="fa-brands fa-chrome"></i></a>
+          </div>
+          <p class="project-desc" id="lowercase">Provides REST API for an Amusement-Park application. This API performs all the fundamental CRUD operations. A Collaborative project accomplished within one week.<br> 
+          </p>
+          <div id="t-stack" class="kim">  <b>Tech Stacks :</b>   
+            <ul class="icon-row">
+              <li class="java-icon"></li>
+              <li class="spring-icon"></li>
+              <li class="sql-icon"></li>
+              <li class="hibernate-icon"></li>
+              <li class="html-icon"></li>
+              <li class="css-icon"></li>
+              <li class="javaSript-icon"></li>
+             
+            </ul>
+           </div> 
+        </div>
+
+        
+
+
+        <div class="box"  id="proj_div">
+          <img src="images/MGNAREGA.png" alt="" />
+          <h4 style="font-size: 15px">MGNAREGA</h4>
+       
+          <div class="icons"  class="github_chrome">
+            
+            <a id="github_chrome" href="https://github.com/potbharenitin6684/MGNREGA" target="_blank" <i class="fa-brands fa-github"></i></a>
+            <p></p>
+            <a id="github_chrome" href="https://drive.google.com/file/d/1Kk68TzEuoylOGT_LT3-gTYkyKKicBBLM/view?usp=sharing" target="blank"   <i class="fa-brands fa-chrome"></i></i></a>
+          </div>
+          <div class="project-desc">
+          <p  id="lowercase">MNREGA(The Mahatma Gandhi National Rural Employment Guarantee Act ) is a scheme by which unskilled people of rural India.Main objective of this project is to manage employments offered through this scheme.<br> 
+            </p></div>
+           <div id="t-stack"> <b>Tech Stacks :</b>   
+            <ul class="icon-row">
+              <li class="java-icon"></li>
+              <li class="spring-icon"></li>
+              <li class="sql-icon"></li>
+              <li class="hibernate-icon"></li>
+            </ul>
+           </div>   
+                 
+                
+        </div>
+
+        
+
+
+        
+       
+
+        
+
+        <div class="box"  id="proj_div">
+          <img src="images/KindMeal.png" alt="" />
+          <h4 style="font-size: 15px">Kind-Meal.My Clone</h4>
+          <div class="icons"  class="github_chrome">
+            <a id="github_chrome" href="https://github.com/potbharenitin6684/Kindmeal.my-Clone" target="_blank" <i class="fab fa-github"></i></a>
+            <a id="github_chrome" href="https://frabjous-strudel-f80c5a.netlify.app/" target="blank" <i class="fa-brands fa-chrome"></i></i></i></a>
+          </div>
+          <p class="project-desc" id="lowercase">KindMeal is Malaysia's pioneering meat-free lifestyle platform. We provide an effective platform to promote compassionate dining in a fun and effective way.   
+            <br>
+            </p>
+            <div id="t-stack"  class="kim" >  <b>Tech Stacks :</b>   
+              <ul class="icon-row">
+                <li class="html-icon"></li>
+                <li class="css-icon"></li>
+                <li class="javaSript-icon"></li>
+                <li class="api-icon"></li>
+              </ul>
+             </div>  
+        </div>
+
+       
+        <div class="box"  id="proj_div" >
+          <img src="images/food_app_thumbnail.PNG" alt="" />
+          <h4 style="font-size: 15px">food app</h4>
+          <div class="icons"  >
+            <a  id="github_chrome"href="https://github.com/Vedpaswan01/Food_app" target="_blank" <i class="fab fa-github"></i></a>
+            <a  id="github_chrome" href="https://lucky-faloodeh-30e409.netlify.app/" target="blank" <i class="fa-brands fa-chrome"></i></a>
+          </div>
+          <p class="project-desc" id="lowercase">This is a Food App which Provides recipe for food item<br> <b>features :-</b>
+            Search the food items recipe, having login/signup aunthentication and sort by country food functionality.
+              <br>
+              </p>
+              <div id="t-stack"> <b>Tech Stacks :</b>   
+                <ul class="icon-row">
+                  <li class="html-icon"></li>
+                  <li class="css-icon"></li>
+                  <li class="javaSript-icon"></li>
+                  <li class="api-icon"></li>
+                </ul>
+               </div>  
+        </div>
+
+
+
+             <div class="box"  id="proj_div" >
+          <img src="images/Urbon.png" alt="" />
+          <h4 style="font-size: 15px">Urban-Company-App-Clone</h4>
+          <div class="icons"  >
+            <a  id="github_chrome"href="https://github.com/potbharenitin6684/Urban-Company-App-Clone" target="_blank" <i class="fab fa-github"></i></a>
+            <a  id="github_chrome" href="capable-dragon-d91ac8.netlify.app/" target="blank" <i class="fa-brands fa-chrome"></i></a>
+          </div>
+          <p class="project-desc" id="lowercase">It is an E-commerce website, through the app, you can book at home services - from beauty & wellness for women etc. Tech stack: HTML, CSS, JavaScript and JSON server, Role: Team lead, managed GitHub and offer page and cart section.
+              <br>
+              </p>
+              <div id="t-stack"> <b>Tech Stacks :</b>   
+                <ul class="icon-row">
+                  <li class="html-icon"></li>
+                  <li class="css-icon"></li>
+                  <li class="javaSript-icon"></li>
+                  <li class="api-icon"></li>
+                </ul>
+               </div>  
+        </div>
+
+
+             <div class="box"  id="proj_div" >
+          <img src="images/weatherApp.png" alt="" />
+          <h4 style="font-size: 15px">Weather-App</h4>
+          <div class="icons"  >
+            <a  id="github_chrome"href="https://github.com/potbharenitin6684/Weather-App" target="_blank" <i class="fab fa-github"></i></a>
+            <a  id="github_chrome" href="luminous-palmier-b9a6ed.netlify.app/" target="blank" <i class="fa-brands fa-chrome"></i></a>
+          </div>
+          <p class="project-desc" id="lowercase">Get the weather forecast in a beautiful and powerful app. See current and forecasted weather with a smart layout that updates as conditions change. And view precipitation, air quality, and temperature maps to see different conditions near you
+              <br>
+              </p>
+              <div id="t-stack"> <b>Tech Stacks :</b>   
+                <ul class="icon-row">
+                  <li class="html-icon"></li>
+                  <li class="css-icon"></li>
+                  <li class="javaSript-icon"></li>
+                  <li class="api-icon"></li>
+                </ul>
+               </div>  
+        </div>
+        <!-- <div class="box">
+          <img src="images/img-5.jpg" alt="" />
+          <h3>project 05</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-link"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/img-6.jpg" alt="" />
+          <h3>project 06</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-link"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+          </div>
+        </div>-->
+      </div> 
+    </section>
+
+    <!-- portfolio section ends -->
+
+<!-- statistics -->
+
+<section class="service" id="service">
+  <h1 class="heading"><span> my </span> statistics</h1>
+
+  <div class="box-container">
+    <div class="box">
+      <img src="images/dev-gif.gif" alt="Spring logo" />
+      <h3>3200+ hours</h3>
+      <h3>of full stack coding</h3>
+      <!-- <p id="lowercase">Developing sustainable web applications with clean codes.</p> -->
     </div>
 
-  </section>
-  <hr style="border: 1px solid #1DA1F2;">
+    <div class="box">
+      <img src="images/project.png" alt="Spring logo" />
+      <h3>3+ projects</h3>
+      <h3>completed</h3>
+      <!-- <p id="lowercase">Providing custom API to amplify your existing software.</p> -->
+    </div>
 
-  <div class="bottom_credit">
-    created by <a href="#about">Nitin Potbhare </a> | all rights reserved.
+    <div class="box">
+      <img src="images/soft-skills.png" alt="Spring logo" />
+      <h3>100+ hours </h3>
+      <h3> of soft skills sessions </h3>
+      <!-- <p id="lowercase">Rebuilding existing systems for speed and stability</p> -->
+    </div>
+    <!-- <div class="box">
+      <img src="images/lettcode.webp" alt="Spring logo" />
+      <h3>200+</h3>
+      <h3>Leetcode problems</h3>
+       <p id="lowercase">Solved 300+ DSA problems in masai OJ platform.</p> -->
+    </div> 
   </div>
 
-  <!-- contact section ends -->
-</body>
+<!--------------------------------------------------------------------------------------------->
+     <p class="github-stats"><span> github </span> contribution</p>
 
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+     ></script>
+     
+     
+     <!--  CSS link-->
+     <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+     />
+
+
+     <section class="github-stats section" id="github-stats">
+      <div class="github-images">
+        <img
+          src="https://github-readme-stats.vercel.app/api?username=potbharenitin6684&show_icons=true&theme=default"
+        />
+        <img
+          src="https://github-readme-streak-stats.herokuapp.com/?user=potbharenitin6684&theme=default"
+        />
+      </div>
+
+    <!---------------------------------------------------------------------------------------------------------------->
+    
+     <!-- calendar. -->
+     <div class="calendar">
+
+       
+       <!-- Loading stuff -->
+       Loading the data just for you.
+     </div>
+     
+     <script>
+       GitHubCalendar(".calendar", "potbharenitin6684");
+       //  responsive functionality
+       GitHubCalendar(".calendar", "potbharenitin6684", { responsive: true });
+
+     
+       function handleClick(){
+        window.open('https://drive.google.com/file/d/1IuV-bMNLVgjvRK2uytfhEO8kjw2ug-F6/view?usp=sharing','_blank')
+    }
+     </script>
+
+
+
+</section>
+</section>
+
+    
+
+     
+
+
+
+
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">contact <span> me </span></h1>
+
+      <div class="icons-container">
+        <div class="icons">
+          <i class="fas fa-envelope"></i>
+          <h3>My Email</h3>
+          <p>12nitinpotbhare@gmail.com</p>
+        </div>
+
+        <div class="icons">
+          <i class="fas fa-phone"></i>
+          <h3>My Number</h3>
+          <p>+91 9834015958</p>
+        </div>
+
+        <div class="icons">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>my address</h3>
+          <p>Pune, Maharashtra, India - 411017</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <form action="https://formsubmit.co/9f58504f89380dce10044ed718d6a777" method="POST">
+          <input type="text" placeholder="name" name=name class="box" />
+          <input type="email" placeholder="email" name="email" class="box form-control" />
+          <input type="number" placeholder="number" name="phone" class="box form-control" />
+
+          <textarea
+            name="message"
+            placeholder="message"
+            class="form-control"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+
+          <input type="submit" class="btn" value="send message" />
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section  -->
+    <footer class="footer">
+      created by <span> @Nitin Potbhare </span>
+
+      <div class="follow">
+        <a
+          href="https://github.com/potbharenitin6684"
+          target="blank"
+          class="fab fa-github"
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/nitin-potbhare-7046a2352/?skipRedirect=true"
+          class="fab fa-linkedin"
+          target="blank"
+          class="fab fa-linked"
+        ></a>
+
+        <a
+          href="https://wa.me/9834015958"
+          class="fab fa-whatsapp"
+          target="blank"
+          class="fab fa-whatsapp"
+        ></a>
+      </div>
+    </footer>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <script>
+      /*==================== GITHUB CALENDAR ====================*/
+      GitHubCalendar(".calendar", "potbharenitin6684", {
+        responsive: true,
+        global_stats: false,
+        tooltips: true,
+      });
+  
+      $(".counting").each(function () {
+      var $this = $(this),
+        countTo = $this.attr("data-count");
+
+      $({ countNum: $this.text() }).animate(
+        {
+          countNum: countTo,
+        },
+        {
+          duration: 3000,
+          easing: "linear",
+          step: function () {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function () {
+            $this.text(this.countNum);
+          },
+        }
+      );
+    });
+
+    
+    </script>
+  </body>
 </html>
-
-
-<script src="script.js"></script>
-<script>
-  var runredirect = function () {
-    var redirectw1 = window.open('https://drive.google.com/e/d/1sNjPKm88EHgLwJwB9tT1PcGsey4gwYY1/view?usp=sharing');
-    redirectw1.location;
-  }
-</script>
